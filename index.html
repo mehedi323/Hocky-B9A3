@@ -27,7 +27,7 @@
 <body class="font-roboto">
     <header class="w-4/5 mx-auto">
         <nav>
-            <div class="navbar bg-base-100">
+            <div class="navbar bg-base-100 p-4">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,7 +64,7 @@
         <!-- Nav-Section End Here -->
         <section class="my-10">
             <div class="">
-                <div class="carousel">
+                <div class="carousel lg:relative ">
                     <div id="slide1" class="carousel-item relative w-full">
                         <img src="./Images/1.png" class="w-full" />
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -80,11 +80,15 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="lg:w-2/5 lg:h-1/5 lg:absolute left-1/4 -bottom-1/4 rounded-lg mx-auto lg:translate-x-80    lg:-translate-y-64 p-8 bg-gray-800 text-white">
+                    <div>
+                        <h1>Meet all the heroes from the field</h1>
+                        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                            urna in sit nullam proin. </p>
+                    </div>
+                </div>
             </div>
-            <!-- <div class="w-[450px] bg-gray-800 text-white p-8 rounded-xl relative -right-[75%] bottom-[50%] >
-                <h1 class="text-2xl ">Meet all the heroes from the field</h1>
-                <p class="font-normal">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-            </div> -->
         </section>
     </header>
     <!-- Header Section end here -->
@@ -354,11 +358,12 @@
                 <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
                     sit nullam proin. </p>
             </div>
-            <div class="flex flex-col items-center lg:flex-row my-12 gap-12">
-                <div class="">
+            <div
+                class="flex flex-col items-center lg:flex-row my-12 gap-12  border-2 border-gray-200 rounded-lg lg:p-10">
+                <div class=" flex-1">
                     <img class="w-1/2 lg:w-auto mx-auto" src="./Images/11.png" alt="">
                 </div>
-                <div class=" w-1/2 lg:w-auto">
+                <div class=" w-1/2 lg:w-auto flex-1">
                     <div class="collapse collapse-plus">
                         <input type="radio" name="my-accordion-3" checked="checked" />
                         <div class="collapse-title text-xl font-medium">
@@ -456,28 +461,89 @@
                         <div class="flex flex-col lg:flex-row gap-10">
                             <div class="space-y-3 flex-1">
                                 <label class="mb-2 font-bold" for="">Your Name</label> <br>
-                                <input class="py-4 px-12 w-full bg-slate-200 rounded-lg " type="text" placeholder="Entar Your Full Name" name="" id=""> <br>
+                                <input class="py-4 px-12 w-full bg-slate-200 rounded-lg " type="text"
+                                    placeholder="Entar Your Full Name" name="" id=""> <br>
                                 <label class="font-bold" for="">Your Subject</label> <br>
-                                <input class="py-4 px-12 w-full bg-slate-200 rounded-lg " type="text" placeholder="Entar Your Email " name="" id=""> <br>
+                                <input class="py-4 px-12 w-full bg-slate-200 rounded-lg " type="text"
+                                    placeholder="Entar Your Email " name="" id=""> <br>
                             </div>
                             <div class="space-y-3 flex-1">
                                 <label class="mb-2 font-bold" for="">Your Name</label> <br>
-                                <input class="py-4 w-full px-12 bg-slate-200 rounded-lg " type="text" placeholder="Entar Your Full Name" name="" id=""> <br>
+                                <input class="py-4 w-full px-12 bg-slate-200 rounded-lg " type="text"
+                                    placeholder="Entar Your Full Name" name="" id=""> <br>
                                 <label class="mb-2 font-bold" for="">Your Subject</label> <br>
-                                <input class="py-4 w-full px-12 bg-slate-200 rounded-lg "  type="text" placeholder="Entar Your Email " name="" id=""> <br>
+                                <input class="py-4 w-full px-12 bg-slate-200 rounded-lg " type="text"
+                                    placeholder="Entar Your Email " name="" id=""> <br>
                             </div>
                         </div>
                         <label class="font-bold">Message</label>
-                        <textarea class="textarea textarea-bordered w-full h-[340px]" placeholder="Write your message"></textarea>
+                        <textarea class="textarea textarea-bordered w-full h-[340px]"
+                            placeholder="Write your message"></textarea>
                         <button class="btn w-full bg-red-500 text-white">Send Message</button>
- 
+
                     </form>
                 </div>
             </div>
         </section>
         <!-- Get In Touch Section end here -->
+
+        <section class="bg-gray-100 rounded-lg">
+            <div class="lg:w-1/2 mx-auto text-center p-5 space-y-4">
+                <h1 class="text-3xl font font-extrabold">Social Media</h1>
+                <div class="space-x-3 text-xl">
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-github"></i></span>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <!-- main section end here -->
+    <footer class=" p-10 bg-gray-900 text-white mt-12">
+        <div class="w-4/5 mx-auto">
+            <div class="flex flex-col lg:flex-row gap-10 ">
+                <nav class=" lg:flex-1 space-y-5">
+                    <h1 class="text-2xl font-bold">Get In Touch</h1>
+                    <p>Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit
+                        nullam
+                        proin. </p>
+                    <div class="flex gap-2">
+                        <span><i class="fa-regular fa-envelope text-red-500  font-bold"></i></span>
+                        <h4>hockeys@support.com</h4>
+                    </div>
+                    <div class="flex gap-2">
+                        <span><i class="fa-solid fa-phone text-red-500 font-bold"></i></span>
+                        <h4>(+62) 123-321-543</h4>
+                    </div>
+                </nav>
+                <nav class="lg:flex-1 space-y-5">
+                    <h6 class="text-xl font-bold">Company</h6>
+                    <p>About Us</p>
+                    <p>Leadership</p>
+                    <p>Careers</p>
+                    <p>News & Article</p>
+                    <p>Legal Notice</p>
+                </nav>
+                <nav class="lg:flex-1 space-y-5">
+                    <h6 class="text-xl font-bold">Support</h6>
+                    <p>Help Center</p>
+                    <p>FAQ</p>
+                    <p>Careers</p>
+                    <p>Ticket Support</p>
+                    <p>Contact Us</p>
+                </nav>
+                <nav class="lg:flex-1 space-y-5">
+                    <h6 class="text-xl font-bold">Services</h6>
+                    <p> Academy</p>
+                    <p>Group Lesson</p>
+                    <p>Private Lesson</p>
+                    <p>Hockeys for kids</p>
+                    <p>Hockeys for Adult</p>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
